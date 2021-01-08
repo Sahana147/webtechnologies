@@ -1,0 +1,273 @@
+
+h1 {
+    
+    /* background-color:salmon; */
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-overflow: clip;
+}
+
+
+h2 {
+    /* background-color:salmon; */
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-overflow: clip; 
+}
+
+h3{
+    background-color:salmon;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-overflow: clip; 
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: salmon;
+    text-align: center;
+}
+
+body {
+    background-color:seagreen;
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/06/Images-Download-Solid-Color-HD-Wallpapers.jpg);
+    background-size: 55%;
+     }
+
+#banner{
+    color:black;
+    font-size: 55px;
+}
+
+ .new{
+    font-size: 40px;
+     padding: 10px 20px 30px;/*top,right,left,buttom*/
+
+     padding-left: 500px ;
+     padding-right: 30px; 
+     
+      border: 2px solid rgb(51, 116, 153);
+     margin: 50px 20px 40px;
+      margin-left: 49px; 
+      margin-right:70px;
+     margin-bottom:60px;
+     margin-top:50px;
+    } 
+
+  
+.box1{
+    border: 2px solid red;
+margin: 50px;
+width: 80px;
+height: 80px;
+background-color: chocolate;
+
+
+}
+
+.box2{
+    border: 2px solid red;
+    margin: 20px;
+    width:40px;
+    height: 40px;
+    background-color: grey;
+    }
+
+
+.box1:hover{
+    background-color: hotpink;
+}
+
+.box2:hover{
+    background-color: hotpink;
+}
+
+.box3:hover{
+    background-color: hotpink;
+}
+
+
+
+
+   
+.new:hover{
+     color: royalblue; /*once we mouse over to text it will change color */
+
+}
+
+.box3{
+       background-color: rgb(51, 255, 0);
+       border: 2px solid gold;
+       margin: 25px;
+       width:50px; 
+       height:50px;
+    
+    
+
+     }
+
+ .box4{
+       background-color: rgb(128, 255, 80);
+       border: 2px solid rgb(157, 255, 0);
+       margin:5px;
+       width:100px; 
+       height:100x;
+       bottom: 50px;
+       display: inline;
+}
+
+.hyper:link{
+background-color: cadetblue;
+}
+  
+.insta{
+    background-color: cornflowerblue;
+}
+.insta:visited{
+    background-color: cadetblue;
+}
+.insta{
+     text-decoration: none; /* to remove underline */
+}
+
+table,tr,th{
+    border: 2px solid cornflowerblue;
+}
+
+
+tr:nth-child(even){
+    background-color: beige;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}
+tr:nth-child(even)hover {
+    background-color: blue;
+}
+
+.comb{
+    color: blue;
+}
+
+div > p{  /*we want to apply only for sub tags  */
+    color: grey;
+}
+/* positions */
+
+.pos {
+    position :static;
+    border:2px solid red;
+}
+
+.one{
+    position: relative;
+    bottom:20px;
+    background-color: red;
+}
+
+.two{
+    position: absolute;
+    top:50px;
+    text-align: center;
+}
+
+.special{
+    position:absolute;
+    background-color: salmon;
+    top:10px;}
+
+
+.button{
+    background-color: lightcoral;
+    color:white;
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+
+ul{
+   top:0;
+   margin:0;
+   /* padding: 0  */
+   width: 30%;
+}
+
+li{
+list-style-type: none;
+
+/* float:left;  to print horizontally */
+}
+
+li a{
+    text-decoration:  none;
+    display: block;
+    padding: 5px;
+    background-color: burlywood; 
+    color:rebeccapurple;
+    margin:10px;
+}
+
+li:hover{
+    background-color: hotpink;
+}
+
+@media screen and (min-width:700px){
+    body{
+          background-color:lawngreen;
+     } 
+
+}
+
+  @media screen and (max-width:566px){
+    /* upto 568 it prints grey color */
+ body{
+        background-color: grey;
+     }
+
+    }
+
+
+   
+  
+
+  /* css layout,index.html,css media queries */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* add background video   */
+
+
+
+/* dispaly box adjacent */
+/* color: #983475937 color property hexa values 
+put color change,background color,add text, paragraph , id selector, class selector,group selector, css box model, background image, pseudo selector, */
+
+
+
+/*css box model*/
